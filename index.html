@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UBI — Ergonomic Office Chairs | Workspace Seating Solutions</title>
-<meta name="description" content="UBI designs and manufactures ergonomic office chairs for modern workspaces. OEM/ODM, quality certified, export ready. Request a quote today.">
+<title>UBI — Complete Workspace Seating Solutions</title>
+<meta name="description" content="UBI designs and manufactures complete workspace seating solutions — open office, executive, meeting room and task zones. OEM/ODM, quality certified, export ready. Request a quote today.">
 <style>
   :root{
     --bg:#ffffff;
@@ -83,7 +83,7 @@
   @media(max-width:860px){.hero-grid{grid-template-columns:1fr;gap:40px;} .hero{padding:72px 0 0;} .stats{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:480px){.stats{grid-template-columns:1fr 1fr;}}
 
-  /* ---------- products ---------- */
+  /* ---------- solutions (zone cards) ---------- */
   .sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:48px;flex-wrap:wrap;}
   .product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;}
   .card{border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:border-color .15s ease,transform .15s ease;}
@@ -91,8 +91,14 @@
   .card-fig{aspect-ratio:1/1;background:var(--surface);display:flex;align-items:center;justify-content:center;}
   .card-fig img{width:100%;height:100%;object-fit:cover;}
   .card-body{padding:20px;}
+  .card-tag{
+    display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent);background:#fdeee7;border-radius:4px;padding:3px 8px;margin-bottom:10px;
+  }
   .card-body h3{margin-bottom:6px;}
-  .card-body p{font-size:13.5px;color:var(--ink-2);margin-bottom:14px;}
+  .card-body p{font-size:13.5px;color:var(--ink-2);margin-bottom:10px;}
+  .card-rec{font-size:12.5px;color:var(--ink-3);margin-bottom:12px;}
+  .card-rec b{color:var(--ink);font-weight:600;}
   .card-link{font-size:13px;font-weight:600;color:var(--accent);}
   @media(max-width:900px){.product-grid{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:520px){.product-grid{grid-template-columns:1fr;}}
@@ -137,7 +143,7 @@
   <div class="wrap nav">
     <a class="logo" href="#">UBI<span>.</span></a>
     <nav class="nav-links">
-      <a href="#products">Products</a>
+      <a href="#solutions">Solutions</a>
       <a href="#why">Why UBI</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
@@ -151,16 +157,16 @@
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <p class="eyebrow">Ergonomic seating · Manufactured in China</p>
-        <h1>Office chairs built for long days of focused work.</h1>
-        <p class="lead">UBI designs and manufactures ergonomic office chairs for modern workspaces — from single showroom samples to full container shipments, with OEM/ODM support and export-ready packaging.</p>
+        <p class="eyebrow">Workspace seating solutions · Manufactured in China</p>
+        <h1>Every zone in your workspace, fully seated.</h1>
+        <p class="lead">UBI designs and manufactures complete seating solutions for modern workplaces — open office, executive, meeting rooms and task zones, all from one factory. OEM/ODM support, certified quality and export-ready packaging.</p>
         <div class="btn-row">
           <a class="btn btn-primary" href="#contact">Request a quote</a>
-          <a class="btn btn-ghost" href="#products">View products</a>
+          <a class="btn btn-ghost" href="#solutions">Explore solutions</a>
         </div>
       </div>
       <div class="hero-fig">
-        <img src="hero.jpg" alt="Modern office workspace with UBI ergonomic chairs">
+        <img src="hero.jpg" alt="Modern open office workspace furnished by UBI">
       </div>
     </div>
     <div class="stats">
@@ -172,47 +178,55 @@
   </div>
 </section>
 
-<!-- ================= PRODUCTS ================= -->
-<section id="products">
+<!-- ================= SOLUTIONS (by workspace zone) ================= -->
+<section id="solutions">
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <p class="eyebrow">Product line</p>
-        <h2>Seating for every role in the office</h2>
+        <p class="eyebrow">Workspace solutions</p>
+        <h2>One workspace, four seating zones</h2>
       </div>
-      <p class="sub" style="max-width:340px;">Full product catalog with specs, materials and color options available on request.</p>
+      <p class="sub" style="max-width:340px;">A complete seating plan for every area of the office — specified, quoted and shipped as one package.</p>
     </div>
     <div class="product-grid">
       <div class="card">
-        <div class="card-fig"><img src="product-mesh.jpg" alt="Ergonomic mesh chairs in a modern open office"></div>
+        <div class="card-fig"><img src="product-mesh.jpg" alt="Open office zone with ergonomic mesh chairs"></div>
         <div class="card-body">
-          <h3>Ergonomic Mesh Chair</h3>
-          <p>Breathable mesh back, lumbar support, adjustable everything. The everyday workhorse.</p>
-          <a class="card-link" href="#contact">Request spec sheet →</a>
+          <span class="card-tag">Open office</span>
+          <h3>Open Office &amp; Team Zones</h3>
+          <p>High-usage seating for open-plan areas — breathable mesh backs and full lumbar support for long hours at the desk.</p>
+          <p class="card-rec">Recommended: <b>Ergonomic Mesh Chair</b></p>
+          <a class="card-link" href="#contact">Configure this zone →</a>
         </div>
       </div>
       <div class="card">
-        <div class="card-fig"><img src="product-executive.jpg" alt="Executive leather chair in a private office"></div>
+        <div class="card-fig"><img src="product-executive.jpg" alt="Executive office zone with leather seating"></div>
         <div class="card-body">
-          <h3>Executive Leather Chair</h3>
-          <p>High-back leather seating with polished base — presence for offices and boardrooms.</p>
-          <a class="card-link" href="#contact">Request spec sheet →</a>
+          <span class="card-tag">Executive</span>
+          <h3>Executive &amp; Private Offices</h3>
+          <p>High-back leather seating with polished bases — presence and comfort for management and client-facing spaces.</p>
+          <p class="card-rec">Recommended: <b>Executive Leather Chair</b></p>
+          <a class="card-link" href="#contact">Configure this zone →</a>
         </div>
       </div>
       <div class="card">
-        <div class="card-fig"><img src="product-conference.jpg" alt="Conference chairs around a boardroom table"></div>
+        <div class="card-fig"><img src="product-conference.jpg" alt="Meeting room zone with conference chairs"></div>
         <div class="card-body">
-          <h3>Conference / Visitor Chair</h3>
-          <p>Stackable guest seating that keeps meeting rooms consistent and compact.</p>
-          <a class="card-link" href="#contact">Request spec sheet →</a>
+          <span class="card-tag">Meeting rooms</span>
+          <h3>Meeting &amp; Boardrooms</h3>
+          <p>Stackable guest seating that keeps meeting rooms consistent, compact and easy to rearrange.</p>
+          <p class="card-rec">Recommended: <b>Conference / Visitor Chair</b></p>
+          <a class="card-link" href="#contact">Configure this zone →</a>
         </div>
       </div>
       <div class="card">
-        <div class="card-fig"><img src="product-task.jpg" alt="Task chairs at shared workstations"></div>
+        <div class="card-fig"><img src="product-task.jpg" alt="Task zone with chairs at shared workstations"></div>
         <div class="card-body">
-          <h3>Task Chair with Lumbar Support</h3>
-          <p>Compact footprint, full adjustability — built for hot-desking and task zones.</p>
-          <a class="card-link" href="#contact">Request spec sheet →</a>
+          <span class="card-tag">Task zones</span>
+          <h3>Task &amp; Hot-desking Zones</h3>
+          <p>Compact, fully adjustable seating for flexible workstations — built for rotation and shared use.</p>
+          <p class="card-rec">Recommended: <b>Task Chair with Lumbar</b></p>
+          <a class="card-link" href="#contact">Configure this zone →</a>
         </div>
       </div>
     </div>
@@ -225,7 +239,7 @@
     <div class="sec-head">
       <div>
         <p class="eyebrow">Why UBI</p>
-        <h2>What importers look for — we cover</h2>
+        <h2>What project partners look for — we cover</h2>
       </div>
     </div>
     <div class="why-grid">
@@ -263,9 +277,9 @@
       <div>
         <p class="eyebrow">About UBI</p>
         <h2>From Foshan to workspaces worldwide</h2>
-        <p class="lead" style="font-size:16px;margin-top:16px;">Based in Foshan, Guangdong — the heart of China's furniture manufacturing — UBI combines factory-direct pricing with design-led thinking. Our goal is simple: comfortable, durable seating that helps teams do their best work.</p>
+        <p class="lead" style="font-size:16px;margin-top:16px;">Based in Foshan, Guangdong — the heart of China's furniture manufacturing — UBI combines factory-direct pricing with design-led thinking. Our goal is simple: complete, comfortable seating that makes every workspace work harder.</p>
         <ul class="about-list">
-          <li>Factory-direct — no middlemen, competitive pricing at any volume</li>
+          <li>Full-scope supply — one factory covers every seating zone in your project</li>
           <li>Dedicated English-speaking export team for smooth communication</li>
           <li>Flexible minimum order quantities for importers and distributors</li>
           <li>Showroom &amp; factory visits welcome for serious buyers</li>
@@ -279,8 +293,8 @@
 <section id="contact" class="cta">
   <div class="wrap">
     <p class="eyebrow" style="color:#ff8a5c;">Get in touch</p>
-    <h2>Planning your next order?</h2>
-    <p>Send us your target quantity, market and specs — we'll reply with pricing, lead times and samples within 24 hours.</p>
+    <h2>Planning a full office rollout?</h2>
+    <p>Tell us your space — floor plan, headcount, zones. We'll spec the seating, quote the pricing and handle the shipping.</p>
     <a class="btn btn-primary" href="mailto:sales@yourcompany.com">sales@yourcompany.com</a>
     <div class="cta-links">
       <span>WhatsApp: <a href="#">+86 138 0000 0000</a></span>
@@ -294,7 +308,7 @@
 <footer>
   <div class="wrap foot">
     <span>© 2026 UBI Seating Co., Ltd. All rights reserved.</span>
-    <span>Ergonomic office chairs · Workspace solutions</span>
+    <span>Complete workspace seating solutions</span>
   </div>
 </footer>
 
