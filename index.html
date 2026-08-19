@@ -72,6 +72,7 @@
     aspect-ratio:4/3;border-radius:12px;background:var(--surface);
     display:flex;align-items:center;justify-content:center;overflow:hidden;
   }
+  .hero-fig img{width:100%;height:100%;object-fit:cover;}
   .placeholder-txt{font-size:13px;color:var(--ink-3);letter-spacing:.06em;text-align:center;padding:24px;}
   .stats{
     margin-top:96px;border-top:1px solid var(--line);
@@ -88,6 +89,7 @@
   .card{border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:border-color .15s ease,transform .15s ease;}
   .card:hover{border-color:#d4d4cf;transform:translateY(-2px);}
   .card-fig{aspect-ratio:1/1;background:var(--surface);display:flex;align-items:center;justify-content:center;}
+  .card-fig img{width:100%;height:100%;object-fit:cover;}
   .card-body{padding:20px;}
   .card-body h3{margin-bottom:6px;}
   .card-body p{font-size:13.5px;color:var(--ink-2);margin-bottom:14px;}
@@ -158,7 +160,7 @@
         </div>
       </div>
       <div class="hero-fig">
-        <span class="placeholder-txt">HERO IMAGE<br>Replace with your best product / workspace photo</span>
+        <img src="images/hero.jpg" alt="Modern office workspace with UBI ergonomic chairs">
       </div>
     </div>
     <div class="stats">
@@ -182,7 +184,7 @@
     </div>
     <div class="product-grid">
       <div class="card">
-        <div class="card-fig"><span class="placeholder-txt">PRODUCT IMAGE<br>Ergonomic Mesh Chair</span></div>
+        <div class="card-fig"><img src="images/product-mesh.jpg" alt="Ergonomic mesh chairs in a modern open office"></div>
         <div class="card-body">
           <h3>Ergonomic Mesh Chair</h3>
           <p>Breathable mesh back, lumbar support, adjustable everything. The everyday workhorse.</p>
@@ -190,7 +192,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-fig"><span class="placeholder-txt">PRODUCT IMAGE<br>Executive Leather Chair</span></div>
+        <div class="card-fig"><img src="images/product-executive.jpg" alt="Executive leather chair in a private office"></div>
         <div class="card-body">
           <h3>Executive Leather Chair</h3>
           <p>High-back leather seating with polished base — presence for offices and boardrooms.</p>
@@ -198,7 +200,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-fig"><span class="placeholder-txt">PRODUCT IMAGE<br>Conference / Visitor Chair</span></div>
+        <div class="card-fig"><img src="images/product-conference.jpg" alt="Conference chairs around a boardroom table"></div>
         <div class="card-body">
           <h3>Conference / Visitor Chair</h3>
           <p>Stackable guest seating that keeps meeting rooms consistent and compact.</p>
@@ -206,7 +208,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-fig"><span class="placeholder-txt">PRODUCT IMAGE<br>Task Chair with Lumbar</span></div>
+        <div class="card-fig"><img src="images/product-task.jpg" alt="Task chairs at shared workstations"></div>
         <div class="card-body">
           <h3>Task Chair with Lumbar Support</h3>
           <p>Compact footprint, full adjustability — built for hot-desking and task zones.</p>
